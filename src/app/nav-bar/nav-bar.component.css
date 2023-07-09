@@ -1,0 +1,31 @@
+.logo {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+}
+.smallScreen {
+    display: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border-bottom: 2px solid white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+li {
+    text-align: center;
+    width: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}

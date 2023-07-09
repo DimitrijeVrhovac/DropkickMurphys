@@ -1,0 +1,50 @@
+[
+    {
+        "city": "Dublin",
+        "state": "IRE",
+        "date": "12.03.2024.",
+        "price": "19.99"
+    },
+    {
+        "city": "Edinbrugh",
+        "state": "SCT",
+        "date": "16.03.2024.",
+        "price": "19.99"
+    },
+    {
+        "city": "London",
+        "state": "GB",
+        "date": "21.04.2024.",
+        "price": "29.99"
+    },
+    {
+        "city": "Barcelona",
+        "state": "ES",
+        "date": "28.04.2024.",
+        "price": "19.99"
+    },
+    {
+        "city": "Paris",
+        "state": "FRA",
+        "date": "30.06.2024.",
+        "price": "29.99"
+    },
+    {
+        "city": "Berlin",
+        "state": "GER",
+        "date": "10.07.2024.",
+        "price": "19.99"
+    },
+    {
+        "city": "Hamburg",
+        "state": "GER",
+        "date": "16.07.2024.",
+        "price": "19.99"
+    },
+    {
+        "city": "Bratislava",
+        "state": "SK",
+        "date": "12.08.2024.",
+        "price": "19.99"
+    }
+]

@@ -1,0 +1,28 @@
+audio {
+    width: 100%;
+    padding: 1rem;
+}
+.trackCover {
+    width: 15rem;
+    border: 1px solid white;
+}
+.trackTitle {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    height: 3rem;
+    color: black;
+}
+.trackWrapper {
+    max-height: 25rem;
+    border: 2px solid white;
+    background: linear-gradient(90deg, rgba(22,155,98,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 66%, rgba(255,136,62,1) 100%);
+    width: 25rem;
+    padding-top: 2rem;
+    margin: 1rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

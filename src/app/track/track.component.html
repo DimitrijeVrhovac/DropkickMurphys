@@ -1,0 +1,7 @@
+<div *ngFor="let track of tracks" class="trackWrapper">
+    <img [src]="track.cover" class="trackCover" />
+    <span class="trackTitle">{{track.title}}</span>
+    <audio controls>
+        <source [src]="track.track">
+    </audio>
+</div>

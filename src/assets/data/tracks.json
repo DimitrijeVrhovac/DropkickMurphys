@@ -1,0 +1,52 @@
+[
+    {
+        "title": "City By The Sea",
+        "track": "/assets/audio/audio1.mp3",
+        "cover": "/assets/covers/cover1.jpg"
+    },
+    {
+        "title": "Going Out In Style",
+        "track": "/assets/audio/audio2.mp3",
+        "cover": "/assets/covers/cover2.jpg"
+    },
+    {
+        "title": "Johnny, I Hardly Knew Ya",
+        "track": "/assets/audio/audio3.mp3",
+        "cover": "/assets/covers/cover3.jpg"
+    },
+    {
+        "title": "Never Git Drunk No More",
+        "track": "/assets/audio/audio4.mp3",
+        "cover": "/assets/covers/cover4.webp"
+    },
+    {
+        "title": "The Battle Rages On",
+        "track": "/assets/audio/audio5.mp3",
+        "cover": "/assets/covers/cover5.png"
+    },
+    {
+        "title": "The Boys Are Back",
+        "track": "/assets/audio/audio6.mp3",
+        "cover": "/assets/covers/cover6.webp"
+    },
+    {
+        "title": "Turn Up That Dial",
+        "track": "/assets/audio/audio7.mp3",
+        "cover": "/assets/covers/cover7.jpg"
+    },
+    {
+        "title": "When I Was A Little Boy",
+        "track": "/assets/audio/audio8.mp3",
+        "cover": "/assets/covers/cover8.webp"
+    },
+    {
+        "title": "Where Trouble Is At",
+        "track": "/assets/audio/audio9.mp3",
+        "cover": "/assets/covers/cover9.jpg"
+    },
+    {
+        "title": "You'll Never Walk Alone",
+        "track": "/assets/audio/audio10.mp3",
+        "cover": "/assets/covers/cover10.jpg"
+    }
+]

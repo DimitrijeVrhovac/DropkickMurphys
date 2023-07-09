@@ -1,0 +1,5 @@
+<div *ngFor="let tour of tours" class="tourRow">
+    <span class="tourLocation">{{tour.city}}, {{tour.state}}</span>
+    <span class="tourDate">{{tour.date}}</span>
+    <button class="tourTicket" type="button">Buy Ticket | ${{tour.price}}</button>
+</div>
