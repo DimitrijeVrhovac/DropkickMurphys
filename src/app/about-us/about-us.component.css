@@ -1,0 +1,20 @@
+* { color: white; }
+.aboutUsDetails {
+    text-indent: 2rem;
+    display: flex;
+    width: 60%;
+    font-size: 1.1rem;
+    margin: 2rem;
+}
+.aboutUsImage {
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: white;
+    margin-left: 1rem;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+a:hover {
+    color: orange;
+}
