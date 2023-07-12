@@ -1,15 +1,11 @@
-.logo {
-    padding: 0;
-    margin: 0;
-    
-}
-.smallScreen {
-    display: none;
-}
-.largeScreen {
-    width: 300px;
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }
 ul {
+    height: 150px;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -20,15 +16,53 @@ ul {
     align-items: center;
     justify-content: center;
 }
-li {
+.showMenu {
+    display: none;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: fixed;
+    top: 35px; left: 20px;
+}
+.smallScreen {
+    display: none;
+}
+.largeScreen {
+    width: 300px;
+}
+.logo {
+    padding: 0;
+    margin: 0;
+}
+.link {
     text-align: center;
     width: 7rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.3rem;
+
+@media screen and ( min-width: 660px ) and ( max-width: 980px ) {
+    .largeScreen{ 
+        display: none;
+    }
+    .smallScreen {
+        display: block;
+        width: 150px;
+    }
+    a {
+        font-size: 1rem;
+    }
+    li {
+        width: 5rem;
+    }
+}
+@media screen and ( max-width : 659px ) {
+    .showMenu {
+        display: block;
+    }
+    .largeScreen, .smallScreen, .link {
+        display: none;
+    }
 }

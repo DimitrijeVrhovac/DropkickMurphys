@@ -1,29 +1,3 @@
-,
-    {
-        "title":"image2",
-        "image":"/assets/images/image2.webp"
-    },
-    {
-        "title":"image3",
-        "image":"/assets/images/image3.jpg"
-    },
-    {
-        "title":"image4",
-        "image":"/assets/images/image4.jpg"
-    },
-    {
-        "title":"image5",
-        "image":"/assets/images/image5.jpg"
-    },
-    {
-        "title":"image6",
-        "image":"/assets/images/image6.jpg"
-    },
-    {
-        "title":"image7",
-        "image":"/assets/images/image7.jpg"
-    },
-    {
-        "title":"image8",
-        "image":"/assets/images/image8.jpg"
-    }
+    @media screen and ( min-width: 660px ) and ( max-width: 980px )
+
+    @media screen and ( max-width : 659px )

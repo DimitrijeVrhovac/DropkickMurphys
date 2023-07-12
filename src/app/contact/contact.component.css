@@ -47,3 +47,9 @@ textarea {
     height: 15rem;
     width: 100%;   
 }
+
+
+
+@media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
+
+@media screen and ( max-width : 659px ) {}
