@@ -1,4 +1,13 @@
 * { color: white; }
+li {
+    margin-bottom: 0.5rem;
+}
+a:hover {
+    color: orange;
+}
+section {
+    padding: 1.5rem;
+}
 .aboutUsDetails {
     text-indent: 2rem;
     display: flex;
@@ -11,10 +20,4 @@
     padding: 0.5rem;
     background-color: white;
     margin-left: 1rem;
-}
-li {
-    margin-bottom: 0.5rem;
-}
-a:hover {
-    color: orange;
 }

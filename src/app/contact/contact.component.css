@@ -1,0 +1,49 @@
+section {
+    width: 100vw;
+}
+h2 {
+    color: white;
+    text-indent: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+}
+label {
+    font-size: 1.2rem;
+    color: white;
+}
+input {
+    color: black;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+textarea {
+    color: black;
+    height: 7rem;
+    width: 20rem;
+}
+.submit {
+    color: orange;
+    outline: none;
+    border: 2px solid orange;
+    width: 4rem;
+    height: 1.5rem;
+    margin: 0.7rem;
+    background-color: transparent;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 40%;
+}   
+.map {
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    border-top: 2px solid white;
+}
+.map iframe{
+    height: 15rem;
+    width: 100%;   
+}
