@@ -24,7 +24,6 @@ li {
     margin: 1rem
 }
 
-
 @media screen and ( min-width: 801px ) and ( max-width: 980px ) {
     .aboutUsDetails {
         flex-wrap: nowrap;

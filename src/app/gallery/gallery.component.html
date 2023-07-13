@@ -1,1 +1,11 @@
-<app-image></app-image>
+<div class="app-gallery">
+   <app-image (click)="showSlider(i)" *ngFor="let image of images; index as i" [image]="image"></app-image>    
+</div>
+<div class="slider" *ngIf="viewSlider">
+    <span (click)="closeSlider()" class="close">close</span>
+    <div class="sliderControls">
+        <span (click)="leftImage()" class="controls"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i></span>
+        <img [src]="images[index].image" />
+        <span (click)="rightImage()" class="controls"><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i></span>
+    </div>
+</div>
