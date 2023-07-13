@@ -31,6 +31,27 @@
 }
 
 
-@media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
+@media screen and ( min-width: 700px ) and ( max-width: 980px ) {
+    .tourTicket, .tourDate, .tourLocation {
+        font-size: 1rem;
+    }
+    .tourLocation, .tourTicket {
+        margin-left: 1rem;
+    }
+    
+}
 
-@media screen and ( max-width : 659px ) {}
+@media screen and ( max-width : 699px ) {
+    .tourRow {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1rem;
+    }
+    .tourDate,.tourLocation,.tourTicket {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+    .tourTicket {
+        padding: 0.3rem;
+    }
+}

@@ -7,6 +7,14 @@ app-image {
 }
 
 
-@media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
+@media screen and ( min-width: 660px ) and ( max-width: 980px ) {
+    app-image {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
-@media screen and ( max-width : 659px ) {}
+@media screen and ( max-width : 659px ) {
+    app-image {
+        grid-template-columns: 1fr;
+    }
+}

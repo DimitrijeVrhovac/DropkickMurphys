@@ -3,7 +3,7 @@ a:hover {
     color: orange;
 }
 section {
-    padding: 1.5rem;
+    padding-left: 1rem;
 }
 li {
     margin-bottom: 0.5rem;
@@ -11,18 +11,36 @@ li {
 .aboutUsDetails {
     text-indent: 2rem;
     display: flex;
-    width: 60%;
-    font-size: 1.1rem;
-    margin: 2rem;
+    flex-wrap: nowrap;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 .aboutUsImage {
+    max-height: 12rem;
     width: 20rem;
     padding: 0.5rem;
     background-color: white;
-    margin-left: 1rem;
+    margin: 1rem
 }
 
 
-@media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
+@media screen and ( min-width: 801px ) and ( max-width: 980px ) {
+    .aboutUsDetails {
+        flex-wrap: nowrap;
+    }
+}
 
-@media screen and ( max-width : 659px ) {}
+@media screen and ( max-width : 800px ) {
+    a {
+        font-size: 0.7rem;
+    }
+    .aboutUsDetails {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutUsImage {
+        width: 15rem;
+    }
+}

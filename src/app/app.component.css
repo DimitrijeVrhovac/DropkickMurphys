@@ -3,12 +3,13 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 3.5rem;
-    width: 100vw;
+    width: 100%;
 }
 app-nav-bar {
     width: 100%;
 }
 footer {
+    z-index: 3;
     height: 3rem;
     border-top: 2px solid white;
     text-align: center;
@@ -17,4 +18,15 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: black;
+}
+footer span {
+    background-color: black;
+    color: white;
+     font-size: 1.2rem;
+}
+
+@media screen and ( max-width : 659px ) {
+   footer span {
+    font-size: 0.8rem;
+   }
 }

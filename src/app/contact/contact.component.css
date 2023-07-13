@@ -29,27 +29,34 @@ textarea {
     height: 1.5rem;
     margin: 0.7rem;
     background-color: transparent;
+    margin-bottom: 16rem;
 }
 .newsletter {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 1rem;
     width: 40%;
 }   
 .map {
-    position: absolute;
+    position: fixed;
     bottom: 3rem;
     width: 100%;
     padding-top: 0.5rem;
     border-top: 2px solid white;
 }
 .map iframe{
-    height: 15rem;
+    height: 10rem;
     width: 100%;   
 }
 
 
 
-@media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
+@media screen and ( min-width: 660px ) and ( max-width: 980px ) {
 
-@media screen and ( max-width : 659px ) {}
+}
+
+@media screen and ( max-width : 659px ) {
+    .map iframe {
+        height: 7rem;
+    }
+}

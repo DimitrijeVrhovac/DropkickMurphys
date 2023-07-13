@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 .homeHero {
     position: relative;
-    width: 99vw;
-    overflow: hidden;
+    width: 100vw;
     z-index: 0;
 }
 .tours {
@@ -19,5 +19,11 @@
 
 @media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
 
-@media screen and ( max-width : 659px ) {}
-
+@media screen and ( max-width : 699px ) {
+    .tours {
+        width: 15rem;
+    }
+    .homeHero {
+        display: none;
+    }
+}

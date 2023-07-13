@@ -9,6 +9,14 @@
 }
 
 
-@media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
+@media screen and ( min-width: 660px ) and ( max-width: 980px ) {
+    .imageWrapper {
+        min-width: 15rem;
+    }
+}
 
-@media screen and ( max-width : 659px ) {}
+@media screen and ( max-width : 659px ) {
+    .imageWrapper {
+        min-width: 15rem;
+    }
+}

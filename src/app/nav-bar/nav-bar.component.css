@@ -23,7 +23,7 @@ ul {
     padding: 0.3rem;
     border: 1px solid white;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
     top: 35px; left: 20px;
 }
 .smallScreen {
