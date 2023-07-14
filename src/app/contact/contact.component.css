@@ -30,6 +30,7 @@ textarea {
     margin: 0.7rem;
     background-color: transparent;
     margin-bottom: 16rem;
+    cursor: pointer;
 }
 .newsletter {
     display: flex;

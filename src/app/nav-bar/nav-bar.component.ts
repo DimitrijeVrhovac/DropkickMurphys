@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+    navState = true
 
+    toggleNav() {
+      this.navState = !this.navState
+    }
 }

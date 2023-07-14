@@ -16,9 +16,11 @@ li {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+.aboutUsDetails p {
+    width: 40%;
+}
 .aboutUsImage {
-    max-height: 12rem;
-    width: 20rem;
+    width: 35rem;
     padding: 0.5rem;
     background-color: white;
     margin: 1rem
@@ -27,6 +29,9 @@ li {
 @media screen and ( min-width: 801px ) and ( max-width: 980px ) {
     .aboutUsDetails {
         flex-wrap: nowrap;
+    }
+    .aboutUsImage {
+        width: 50%;
     }
 }
 
@@ -38,6 +43,9 @@ li {
         align-items: center;
         display: flex;
         flex-direction: column;
+    }
+    .aboutUsDetails p {
+        width: 80%;
     }
     .aboutUsImage {
         width: 15rem;

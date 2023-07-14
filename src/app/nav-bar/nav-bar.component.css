@@ -4,12 +4,17 @@ a {
     text-transform: uppercase;
     font-size: 1.3rem;
 }
-ul {
+.mainNav {
     height: 150px;
     margin: 0;
     padding: 0;
     background-color: black;
     border-bottom: 2px solid white;
+} 
+ul {
+    padding: 0;
+    margin: 0;
+    height: 100%;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -26,15 +31,10 @@ ul {
     position: absolute;
     top: 35px; left: 20px;
 }
-.smallScreen {
-    display: none;
-}
-.largeScreen {
-    width: 300px;
-}
 .logo {
     padding: 0;
     margin: 0;
+    width: 300px;
 }
 .link {
     text-align: center;
@@ -44,11 +44,7 @@ ul {
 }
 
 @media screen and ( min-width: 660px ) and ( max-width: 980px ) {
-    .largeScreen{ 
-        display: none;
-    }
-    .smallScreen {
-        display: block;
+    .logo {
         width: 150px;
     }
     a {
@@ -62,7 +58,25 @@ ul {
     .showMenu {
         display: block;
     }
-    .largeScreen, .smallScreen, .link {
-        display: none;
+    .logo {
+        width: 150px;
+        position: absolute;
+        top: 35px;
+        left: 100px;
+    }
+    .mainNav  {
+        width: 100%;
+        right: 10px;
+    }
+    ul {
+        padding-right: 1rem;
+        flex-direction: column;
+        align-items: end;
+    }
+    .link {
+        text-align: end;
+    }
+    .link a {
+        font-size: 1rem;
     }
 }

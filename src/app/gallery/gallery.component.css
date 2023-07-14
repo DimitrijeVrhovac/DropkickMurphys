@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .slider img {
-    height: 80vh;
+    width: 65vw;
     background-color: black;
     border: 2px solid white;
     padding: 1rem;
@@ -46,10 +46,19 @@
     .app-gallery {
         grid-template-columns: 1fr 1fr;
     }
+    .slider img {
+        width: 90vw;
+    }
 }
 
 @media screen and ( max-width : 659px ) {
     .app-gallery {
         grid-template-columns: 1fr;
+    }
+    .slider img {
+        width: 80%;
+    }
+    .controls {
+        font-size: 1rem;
     }
 }
