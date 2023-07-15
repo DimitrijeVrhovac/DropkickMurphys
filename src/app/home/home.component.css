@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     margin: 0;
-    margin-bottom: 4rem;
+    height: 100vh;
 }
 .homeHero {
     position: relative;
