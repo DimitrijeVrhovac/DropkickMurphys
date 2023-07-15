@@ -1,5 +1,18 @@
-<div *ngFor="let tour of tours" class="tourRow">
+<div *ngFor="let tour of tours; index as i" class="tourRow">
     <span class="tourLocation">{{tour.city}}, {{tour.state}}</span>
     <span class="tourDate">{{tour.date}}</span>
-    <button class="tourTicket" type="button">Buy Ticket | ${{tour.price}}</button>
+    <button (click)="buyTicket(i)" class="tourTicket" type="button">Tickets</button>
+</div>
+<div class="checkout" *ngIf="viewTicket">
+    <div class="ticket">
+        <span class="ld">{{tours[index].city}}, {{tours[index].state}} | {{tours[index].date}}</span>
+        <div class="price">
+            <span>Price: ${{tours[index].price*quantity}}</span>
+            <button (click)="increase()">+</button>
+            <button (click)="decrease()">-</button>
+        </div>
+        
+        <button class="green" (click)="getTicket()">Buy Tickets</button>
+        <button class="red" (click)="cancelTicket()">Cancel</button>
+    </div>
 </div>

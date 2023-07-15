@@ -29,7 +29,78 @@
 .tourRow:hover {
     background-color: gray;
 }
-
+.checkout {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    bottom: 3rem;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticket {
+    width: 50%;
+    height: 10rem;
+    background-color: white;
+    border: 2px solid black;
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: 
+        "ld ld ld"
+        "price buy cancel";
+    text-align: center;
+    grid-template-columns: auto 7rem 7rem;
+    grid-template-rows: 4rem 2rem;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-area: price;
+    text-align: left;
+    margin: 0.5rem;
+}
+.price button {
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    outline: none;
+    border: 1px solid black;
+}
+.ld {
+    margin-bottom: 0.3rem;
+    padding: 0;
+    font-size: 2rem;
+    grid-area: ld;
+    border-bottom: 1px solid black;
+}
+.green {
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    grid-area: buy;
+    background-color: rgb(53, 128, 53);
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.red {
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    grid-area: cancel;
+    background-color: rgb(167, 80, 80);
+    border: 1px solid crimson;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
 
 @media screen and ( min-width: 700px ) and ( max-width: 980px ) {
     .tourTicket, .tourDate, .tourLocation {
@@ -39,6 +110,32 @@
         margin-left: 1rem;
     }
     
+}
+
+@media screen and ( max-width: 1100px ) {
+        .ticket {
+            width: 80vw;
+            height: 12rem;
+            grid-template-areas: "ld ld"
+                                 "price price"
+                                 "buy cancel";
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto 2rem;
+        }
+        .price {
+            font-size: 1rem;
+        }
+        .price span {
+            flex-grow: 1;
+        }
+        .ld {
+            font-size: 1.5rem;
+        }
+        .red, .green {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: auto;
+        }
 }
 
 @media screen and ( max-width : 699px ) {

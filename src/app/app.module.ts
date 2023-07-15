@@ -25,7 +25,7 @@ import { TrackComponent } from './track/track.component';
     AboutUsComponent,
     ContactComponent,
     ImageComponent,
-    TrackComponent
+    TrackComponent,
   ],
   imports: [
     BrowserModule,
