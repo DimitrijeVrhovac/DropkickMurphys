@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     margin: 0;
-    height: 100vh;
+    margin-bottom: 4rem;
 }
 .homeHero {
     position: relative;
@@ -16,13 +16,18 @@
     z-index: 1;
     position: absolute;
 }
-
+app-tours {
+    margin-bottom: 4rem;
+}
 
 @media screen and ( min-width: 660px ) and ( max-width: 980px ) {}
 
 @media screen and ( max-width : 699px ) {
     .tours {
+        height: 100%;
         width: 15rem;
+        margin-bottom: 5rem;
+        position: initial;
     }
     .homeHero {
         display: none;
